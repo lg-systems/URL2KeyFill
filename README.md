@@ -62,3 +62,11 @@ Meters measure per-channel RMS over a 300 ms window and display a common sine-ca
 MONO layers show a single bar in both their layer button and audio drawer, measured after the mono fold-down and before gain/mute.
 
 Audio diagnostics distinguish **Buffer overruns** (packets expiring while needed for active, unmuted SDI output) from **Unused expiry (normal)** (normal queue cleanup while stopped, paused, muted, hidden or at zero gain). Expiry of packets captured before PLAY remains normal after starting PLAY. Counters accumulate for each layer runtime; SDK/output failures remain in **Errors**.
+
+## License
+
+URL2KeyFill is © 2026 [LG-Systems](https://lg-systems.net) and is released under the [MIT License](LICENSE).
+
+Third-party components keep their own licenses: CEF/Chromium is bundled with its license notices, and the Blackmagic Desktop Video SDK is obtained separately under the Blackmagic EULA and is not redistributed.
+
+Blackmagic Design, DeckLink and UltraStudio are trademarks of Blackmagic Design Pty. Ltd. URL2KeyFill is an independent project and is not affiliated with or endorsed by Blackmagic Design.

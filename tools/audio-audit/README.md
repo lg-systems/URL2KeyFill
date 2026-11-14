@@ -1,7 +1,6 @@
 # Audio audit evidence
 
-Reproducible evidence for the SDI audio timing findings in
-[AUDITORIA-2026-10-30](../../docs/AUDITORIA-2026-10-30.md). Nothing here is part of the
+Reproducible evidence for the SDI audio timing findings. Nothing here is part of the
 application build; the tracked sources are never modified.
 
 | File | Purpose |

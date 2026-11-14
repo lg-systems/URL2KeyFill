@@ -8,3 +8,6 @@ third_party/*
 
 # Python diagnostic/test caches
 __pycache__/
+
+# Internal development notes, kept locally only
+docs/AUDITORIA-*.md

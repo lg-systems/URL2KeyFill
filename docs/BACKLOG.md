@@ -23,7 +23,7 @@
 ## Physically verified (UltraStudio, SDI OUT → SDI IN loopback)
 
 - [x] 8-hour continuity at 1080p25 (0.5.0) and at 1080p59.94 (Reliable, 2026-11-03): no late or dropped frames, no missing audio samples, no recoveries.
-- [x] A/V offset by loopback capture at 25p, 50p and 59.94p, single layer and two layers; limits and results in `AUDITORIA-2026-10-30.md` §11.4–11.6.
+- [x] A/V offset by loopback capture at 25p, 50p and 59.94p, single layer and two layers; measurements in `tools/audio-audit/data/`.
 
 ## Still requires physical acceptance
 
