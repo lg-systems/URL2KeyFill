@@ -97,3 +97,10 @@ Output timing and reliability
 Known limitations: A/V alignment is a calibrated default, not certified for arbitrary HTML sources; at 59.94p only the EBU R37 window is guaranteed. After reconnecting the UltraStudio or waking the Mac, restart the Mac if frames appear out of place. The external BeginFrame prototype stays off by default. Not certified for production.
 
 macOS Apple Silicon (M1 and later), macOS 13 or later; native Release arm64 build with DeckLink enabled. Ad-hoc signed, not Apple notarized. The ZIP contains the application; SHA256SUMS.txt provides the archive checksum.
+
+## 0.7.1
+
+Rebuild of 0.7.0 for publication under LG-Systems. No functional changes.
+- The build maps source and CEF paths to relative ones (`-ffile-prefix-map`), so the binaries no longer contain the build machine's directory names.
+
+macOS Apple Silicon (M1 and later), macOS 13 or later; native Release arm64 build with DeckLink enabled. Ad-hoc signed, not Apple notarized. The ZIP contains the application; SHA256SUMS.txt provides the archive checksum.
